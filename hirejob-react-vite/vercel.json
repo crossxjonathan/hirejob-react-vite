@@ -3,7 +3,7 @@
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "/hirejob-react-vite/index.html"
+        "destination": "/"
       }
     ]
   }
