@@ -31,27 +31,27 @@ const App = () => {
     <BrowserRouter>
       <Routes>
       <Route path='/company' element={<LayoutCompany />}>
-          <Route exact path='home' element={<Home />} />
-          <Route exact path='sort' element={<Sort />} />
-          <Route exact path='profile-perusahaan' element={<ProfileCompany />} />
-          <Route exact path='edit-profile-perusahaan' element={<EditCompany />} />
-          <Route exact path='portofolio' element={<Portofolio />} />
+          <Route path='home' element={<Home />} />
+          <Route path='sort' element={<Sort />} />
+          <Route path='profile-perusahaan' element={<ProfileCompany />} />
+          <Route path='edit-profile-perusahaan' element={<EditCompany />} />
+          <Route path='portofolio' element={<Portofolio />} />
         </Route>
         <Route path='/worker' element={<LayoutPage />}>
-          <Route exact path='home' element={<Home />} />
-          <Route exact path='sort' element={<Sort />} />
-          <Route exact path='profile-pekerja' element={<ProfileWorker />} />
-          <Route exact path='edit-profile-pekerja' element={<EditEmployee />} />
-          <Route exact path='portofolio' element={<Portofolio />} />
-          <Route exact path='pengalaman-kerja' element={<Experience />} />
+          <Route path='home' element={<Home />} />
+          <Route path='sort' element={<Sort />} />
+          <Route path='profile-pekerja' element={<ProfileWorker />} />
+          <Route path='edit-profile-pekerja' element={<EditEmployee />} />
+          <Route path='portofolio' element={<Portofolio />} />
+          <Route path='pengalaman-kerja' element={<Experience />} />
         </Route>
         <Route path="auth" element={<PublicLayout />}>
-          <Route exact path='login' element={<Login />} />
-          <Route exact path='register' element={<Register />} />
-          <Route exact path='register-recruitment' element={<RegisterRecruitment />} />
+          <Route path='login' element={<Login />} />
+          <Route path='register' element={<Register />} />
+          <Route path='register-recruitment' element={<RegisterRecruitment />} />
         </Route>
-        <Route exact path='/' element={<LandingPage />} />
-        <Route exact path='landing-page-login' element={<LandingPagelogin />} />
+        <Route path='/' element={<LandingPage />} />
+        <Route path='landing-page-login' element={<LandingPagelogin />} />
       </Routes>
     </BrowserRouter>
   )
