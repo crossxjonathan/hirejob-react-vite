@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 
 //LOGIN & REGISTER
 import Login from './pages/login/Login';
