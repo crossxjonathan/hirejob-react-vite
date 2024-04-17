@@ -20,7 +20,7 @@ const HeaderLandingLogin = () => {
                 <li><img src={logo} className='h-10 px-24' alt="logo" /></li>
             </ul>
             <ul className='homePageButton py-6'>
-                <li onClick={homePage}><p>Home</p></li>
+                <li onClick={homePage}><p>HOME</p></li>
             </ul>
             <ul className='button-landing flex justify-end'>
                 <li className='relative -left-16 -top-2'>

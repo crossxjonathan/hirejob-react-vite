@@ -53,7 +53,7 @@
 @media screen and ( max-width:768px ) {
 
     .containerfluid .mainWrapper .leftWrapper{
-        width: 60%;
+        width: 50%;
         height: 700px;
         display: flex;
         position: absolute;
@@ -71,6 +71,9 @@
         height: 825px;
     }
     
+    .containerfluid .mainWrapper .leftWrapper .logo {
+    display: none;
+    }
 
     .containerfluid .mainWrapper .leftWrapper .text-title h1 {
         display: none;

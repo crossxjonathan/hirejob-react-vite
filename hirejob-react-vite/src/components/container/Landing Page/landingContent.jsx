@@ -15,9 +15,9 @@ import Next from '../../navigation/next';
 import Prev from '../../navigation/prev'
 
 const LandingPageContainer = () => {
-  const register = () => {
-    alert('please register first!!')
-    window.location.href = '/auth/register';
+  const login = () => {
+    alert('please login first!!')
+    window.location.href = '/auth/login';
   }
   return (
     <body>
@@ -27,7 +27,7 @@ const LandingPageContainer = () => {
             <h1 className='titleOne'>Talenta terbaik negri untuk perubahan revolusi 4.0</h1>
             <p className='descriptionOne'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
             <div className='starting-button'>
-            <button type="buttons1" onClick={register} className="w-34 h-12 focus:outline-none text-white bg-purple-800 hover:bg-purple-900 focus:ring-4 focus:ring-purple-300 font-medium rounded-sm text-md px-5 py-2.5 mb-2 dark:bg-purple-700 dark:hover:bg-purple-800 dark:focus:ring-purple-900">Mulai Dari Sekarang</button>
+            <button type="buttons1" onClick={login} className="w-34 h-12 focus:outline-none text-white bg-purple-800 hover:bg-purple-900 focus:ring-4 focus:ring-purple-300 font-medium rounded-sm text-md px-5 py-2.5 mb-2 dark:bg-purple-700 dark:hover:bg-purple-800 dark:focus:ring-purple-900">Mulai Dari Sekarang</button>
             </div>
           </div>
           <div className='imageOne'>
@@ -115,7 +115,7 @@ const LandingPageContainer = () => {
           <div className='rectangle'>
             <img className='px-28 py-20' src={PurpleFrame} />
             <div className='button-purple'>
-              <button type="buttons2" onClick={register} className="buttonWhite white-btn w-52 h-16 text-center bg-white text-purple-700 font-bold border border-purple-800 rounded-md transition duration-300 relative px-5 py-5">Mulai Dari Sekarang</button>
+              <button type="buttons2" onClick={login} className="buttonWhite white-btn w-52 h-16 text-center bg-white text-purple-700 font-bold border border-purple-800 rounded-md transition duration-300 relative px-5 py-5">Mulai Dari Sekarang</button>
             </div>
           </div>
           <div className='title-purple'>

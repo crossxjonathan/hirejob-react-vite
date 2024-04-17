@@ -18,6 +18,11 @@
     z-index: 1;
 }
 
+.landingheaderlogin-container .homePageButton p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
 
 @media screen and (max-width: 576px) {
    .landingheaderlogin-container {
