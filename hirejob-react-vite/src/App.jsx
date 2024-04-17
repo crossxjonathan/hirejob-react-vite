@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //LOGIN & REGISTER
 import Login from './pages/login/Login';
-import Register from './pages/register/register'
+import Register from './pages/register/register';
 import RegisterRecruitment from './pages/register/registerRecruitment';
 
 // MAIN PAGE

@@ -20,7 +20,7 @@ const LandingPageContainer = () => {
     window.location.href = '/auth/login';
   }
   return (
-    <body>
+    <div>
       <section id='contain'>
         <div className='containerLandingPage'>
           <div className='flex'>
@@ -123,7 +123,7 @@ const LandingPageContainer = () => {
           </div>
         </div>
       </section>
-    </body>
+    </div>
   )
 }
 
