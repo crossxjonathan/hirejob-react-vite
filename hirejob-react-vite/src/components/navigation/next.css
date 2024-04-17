@@ -1,0 +1,6 @@
+.nextbutton button{
+    display: flex;
+    position: relative;
+    top: 190px;
+    left: -10px;
+}

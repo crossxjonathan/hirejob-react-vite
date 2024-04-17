@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F6F7F8;
+  overflow-x: hidden;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.containerfluid {
+  min-height: 100%;
+  width: 1440px;
+  display: block;
+}
+
+.mainWrapper {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: -15px;
+  margin-left: -15px; */
+}
+
+/* .leftWrapper {
+  display: flex;
+  width: 600px;
+    background-image: url("../img/true-agency.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    height: 700px;
+    overflow: hidden;
+}
+
+.rightWrapper {
+  display: flex;
+} */

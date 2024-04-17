@@ -1,0 +1,93 @@
+.containerfluid .mainWrapper .rightWrapper {
+    float: left;
+    width: 50%;
+    flex: 1;
+}
+
+.containerfluid .mainWrapper .rightWrapper .title h1 {
+    display: flex;
+    position: relative;
+    /* width: 258px; */
+    height: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43.58px;
+    color: #1F2A36;
+    
+}
+
+#login {
+    padding: 40px 100px 40px 40px;
+}
+
+#login .pagecontainer {
+    width: 100%;
+}
+
+#login .description p {
+    display: flex;
+    position: relative;
+    /* width: 570px; */
+    width: 100%;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #46505C;
+    text-align: left;
+}
+
+#login form {
+    width: 100%;
+    padding: 20px 20px 20px 180px; 
+}
+
+.password {
+    padding: 100px 20px 20px 0px;
+}
+
+.containerfluid .mainWrapper .rightWrapper .forget p {
+    padding: 80px 20px 20px 200px;
+    text-wrap: nowrap;
+}
+
+#login .buttonClick {
+    width: 100%;
+}
+
+#login .registerClick p {
+    padding: 390px 10px 10px 110px;
+}
+
+#login .registerClick span {
+    color: #FBB017;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    cursor: pointer;
+}
+
+#login .registerClick span:hover {
+    color: #f8f8f8;
+    background-color: #fcb11b;
+}
+
+@media screen and ( max-width:768px ) {
+    .containerfluid .mainWrapper .rightWrapper {
+        width: 50%;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+
+    .containerfluid .mainWrapper .rightWrapper .title h1 {
+        color: #f8f8f8;
+    }
+
+    #login .description p {
+        color: #f8f8f8;
+    }
+}

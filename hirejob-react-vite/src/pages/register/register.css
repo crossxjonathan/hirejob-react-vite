@@ -1,0 +1,103 @@
+.containerfluid .mainWrapper .rightwrapper {
+    float: left;
+    width: 50%;
+    flex: 1;
+}
+
+.containerfluid .mainWrapper .rightwrapper .RegisterEmployee .title-employee h1 {
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43.58px;
+    color: #1F2A36;
+}
+
+.containerfluid .mainWrapper .rightwrapper .RegisterEmployee .description-employee p {
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #46505C;
+    text-align: left;
+}
+
+#register-employee {
+    padding: 40px 100px 40px 40px;
+}
+
+#register-employee .RegisterEmployee {
+    width: 100%;
+}
+
+#register-employee .name-register {
+    padding: 20px 10px 10px 180px;
+}
+
+#register-employee .email-register {
+    padding: 100px 10px 10px 180px;
+}
+
+#register-employee .phone-register {
+    padding: 100px 10px 10px 180px;
+}
+
+#register-employee .password-register {
+    padding: 100px 10px 10px 180px;
+}
+
+#register-employee .confirm-register {
+    padding: 100px 10px 10px 180px;
+}
+
+.login-text {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-wrap: nowrap;
+    padding: 240px 0px 0px 0px;
+}
+
+.login-text p {
+    padding: 150px 10px 10px 150px;
+    color: #1F2A36;
+}
+
+.login-text span {
+    color: #FBB017;
+    cursor: pointer;
+}
+
+.login-text span:hover {
+    color: #f5f5f5;
+    background-color: #FBB017;
+}
+
+
+@media screen and (max-width:768px) {
+    .containerfluid .mainWrapper .rightWrapper {
+        width: 50%;
+        /* position: relative;
+        margin-top: 50px;
+        margin-left: -50px; */
+    }
+
+    .containerfluid .mainWrapper .rightwrapper .RegisterEmployee {
+        position: relative;
+        margin-top: -10px;
+        margin-left: -40px;
+    }
+    
+    .containerfluid .mainWrapper .rightwrapper .RegisterEmployee .title-employee h1 {
+        display: none;
+    }
+
+    .containerfluid .mainWrapper .rightwrapper .RegisterEmployee .description-employee p {
+        display: none;
+    }
+}

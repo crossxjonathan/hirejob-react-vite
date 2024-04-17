@@ -1,0 +1,178 @@
+.skill-container {
+width: 100%;
+flex: 1;
+float: left;
+}
+
+.skill-container .phyton p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 12px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+}
+
+.skill-container .phyton img{
+    position: absolute;
+    padding-top: 190px;
+    margin-left: -70px;
+}
+
+
+.skill-container .laravel p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 15px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 90px;
+}
+
+.skill-container .laravel img{
+    position: absolute;
+    padding-top: 190px;
+    margin-left: 10px;
+}
+
+.skill-container .golang p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 15px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 190px;
+}
+
+.skill-container .golang img{
+    position: absolute;
+    padding-top: 190px;
+    margin-left: 120px;
+}
+
+
+.skill-container .javascript p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 0px;
+    top: 50px;
+}
+
+.skill-container .javascript img{
+    position: absolute;
+    padding-top: 240px;
+    margin-left: -70px;
+}
+
+
+.skill-container .php p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 100px;
+    top: 50px;
+}
+
+.skill-container .php img{
+    position: absolute;
+    padding-top: 240px;
+    margin-left: 40px;
+}
+
+.skill-container .html p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 170px;
+    top: 50px;
+}
+
+.skill-container .html img{
+    position: absolute;
+    padding-top: 240px;
+    margin-left: 100px;
+}
+
+
+.skill-container .c p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 23px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: -10px;
+    top: 100px;
+}
+
+.skill-container .c img{
+    position: absolute;
+    padding-top: 290px;
+    margin-left: -70px;
+}
+
+
+.skill-container .kotlin p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 30px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 50px;
+    top: 100px;
+}
+
+.skill-container .kotlin img{
+    position: absolute;
+    padding-top: 290px;
+    margin-left: -10px;
+}
+
+
+.skill-container .swift p{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 30px;
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    left: 140px;
+    top: 100px;
+}
+
+.skill-container .swift img{
+    position: absolute;
+    padding-top: 290px;
+    margin-left: 80px;
+}

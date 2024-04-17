@@ -1,0 +1,340 @@
+.experience-container {
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    float: left;
+    flex: 1;
+    background-color: #F6F7F8;
+}
+
+.experience-container .main-experience {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #5E50A1;
+    padding: 50px 50px;
+}
+
+.experience-container .main-experience .left-container{
+    display: flex;
+    width: 25%;
+    height: 1100px;
+    background-color: #ffffff;
+    padding: 50px 95px;
+    margin-left: 90px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.experience-container .main-experience .right-container{
+    display: flex;
+    width: 65%;
+    height: 550px;
+    background-color: #ffffff;
+    padding: 50px 50px;
+    margin-left: 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* =============================================================== */
+
+.experience-container .main-experience .left-container .ProfileName h1{
+    width: 170px;
+    display: flex;
+    padding-top: 140px;
+    position: absolute;
+    margin-left: -70px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #1F2A36;
+    line-height: 56px;
+}
+
+
+.experience-container .main-experience .left-container .ProfileName p{
+    width: 100%;
+    display: flex;
+    padding-top: 190px;
+    margin-left: -70px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.experience-container .main-experience .left-container .ProfileName .map p{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: -185px;
+    padding-left: 20px;
+    color: #9EA0A5;
+}
+
+.experience-container .main-experience .left-container .ProfileName .map img{
+display: flex;
+position: absolute;
+margin-left: -70px;
+padding-top: 10px;
+}
+
+.experience-container .main-experience .left-container .ProfileName .job p{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: -150px;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #9EA0A5;
+}
+
+.experience-container .main-experience .left-container .ProfileName .ProfileAbout p{
+    width: 270px;
+    display: flex;
+    position: absolute;
+    margin-top: -100px;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9EA0A5;
+    text-wrap: wrap;
+    text-align: left;
+}
+
+
+.experience-container .main-experience .left-container .ProfileName .hire-button img{
+    width: 20%;
+    display: flex;
+    position: absolute;
+    height: 50px;
+    margin-left: -75px;
+    margin-top: 230px;
+}
+
+.experience-container .main-experience .left-container .ProfileName .hire-button p{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-left: 0px;
+    padding: 245px 35px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.experience-container .main-experience .left-container .ProfileName .SkillTag {
+padding: 0px 0px;
+position: relative;
+margin-top: -350px;
+}
+
+/* ============================================================================ */
+
+.experience-container .main-experience .right-container .portofolio-page .portofolio-title h1{
+ width: 100%;   
+ display: flex;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ font-size: 22px;
+ color: #9EA0A5;
+ cursor: pointer;
+ z-index: 1;
+}
+
+
+/* .experience-container .main-experience .right-container .portofolio-page .portofolio-file{
+   display: flex;
+   position: absolute;
+   padding: 50px;
+   margin-left: -50px;
+} */
+
+.experience-container .main-experience .right-container .experience-page{
+    width: 100%;
+    display: flex;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-title h1{
+    width: 100%;   
+    display: flex;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    left: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    text-wrap: nowrap;
+   }
+
+.experience-container .main-experience .right-container .experience-page .experience-title hr{
+    border: none;
+    height: 4px;
+    position: relative;
+    left: 30px;
+    background-color: #5E50A1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+.experience-container .main-experience .right-container .experience-page .experience-file {
+    display: grid;
+    position: absolute;
+    padding: 50px;
+    margin: 0px -240px;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-file .engineer{
+    display: flex;
+    padding: 30px 80px;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-file .engineer h1{
+    display: flex;
+    padding: 0px 30px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1F2A36;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-file .engineer p{
+    display: flex;
+    padding: 0px 30px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #46505C;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-file .date-engineer p{
+    display: grid;
+    width: 100%;
+    position: absolute;
+    margin-left: -300px;
+    padding: 50px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #9EA0A5;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-file .date-engineer span{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-left: 390px;
+    padding: 50px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #9EA0A5;
+}
+
+
+.experience-container .main-experience .right-container .experience-page .experience-file .about-engineer p{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-left: -120px;
+    padding: 100px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2A36;
+    text-align: left;
+}
+
+
+/* =========================================================================== */
+
+.experience-container .main-experience .right-container .experience-page .experience-file .webdeveloper{
+    display: flex;
+    padding: 100px 80px;
+}
+
+
+.experience-container .main-experience .right-container .experience-page .experience-file .webdeveloper h1{
+    display: flex;
+    padding: 0px 30px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1F2A36;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-file .webdeveloper p{
+    display: flex;
+    padding: 0px 30px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #46505C;
+}
+
+
+.experience-container .main-experience .right-container .experience-page .experience-file .date-webdeveloper p{
+    display: grid;
+    width: 100%;
+    position: absolute;
+    margin-left: -360px;
+    padding: 50px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #9EA0A5;
+}
+
+.experience-container .main-experience .right-container .experience-page .experience-file .date-webdeveloper span{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-left: 390px;
+    padding: 50px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #9EA0A5;
+}
+
+
+.experience-container .main-experience .right-container .experience-page .experience-file .about-webdeveloper p{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-left: -180px;
+    padding: 100px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2A36;
+    text-align: left;
+}

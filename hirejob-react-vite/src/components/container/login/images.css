@@ -1,0 +1,277 @@
+/* body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ImageLogin {
+    display: flex;
+    width: 100%;
+    padding: 30px 30px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.ImageLogin:after {
+    content: "";
+    background-color: rgba(94, 80, 161, 0.8);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 650px;
+    height: 825px;
+}
+
+.white-text {
+    display: flex;
+    position: absolute;
+    width: 456px;
+    height: 280px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 70px;
+    z-index: 5;
+    color: #ffffff;
+}
+
+.description {
+    display: flex;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.description h1 {
+    display: flex;
+    width: 258px;
+    height: 44px;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 43.58px;
+    color: #1F2A36;
+}
+
+.description p {
+    display: flex;
+    width: 570px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24.51px;
+    color: #46505C;
+    margin-top: 50px;
+    margin-left: -256px;
+}
+
+.form {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 270px;
+}
+
+.form .name-text input {
+    display: flex;
+    position: absolute;
+    width: 565px;
+    height: 50px;
+    padding: 10px;
+}
+
+.form .email-text input {
+    display: flex;
+    position: absolute;
+    width: 565px;
+    height: 50px;
+    padding: 10px;
+}
+
+.form .password-text input {
+    display: flex;
+    position: absolute;
+    width: 565px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.form label {
+    color: #9EA0A5;
+    font-weight: 400;
+}
+
+.forget p {
+    display: flex;
+    color: #1F2A36;
+    width: 125px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 80px;
+}
+
+.register p {
+    width: 284px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.register span {
+    width: 284px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #FBB017;
+    cursor: pointer;
+}
+
+@media screen and (max-width:576px) {
+    body {
+        width: 100%;
+    }
+
+    .ImageLogin {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+
+    .ImageLogin:after {
+        width: 100%;
+        height: 100%;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    .white-text {
+        display: none;
+    }
+
+    .logo img {
+        max-width: 300px;
+        height: 80px;
+        margin-left: 0px;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .form {
+        margin-top: 150px;
+        margin-left:10px;
+        z-index: 1;
+    }
+
+    .form label {
+        color: #ffffff;
+    }
+
+    .form .email-text input {
+        width: 350px;
+    }
+
+    .forget {
+        margin-left: -430px;
+    }
+    .forget p{
+        color: #ffffff;
+    }
+
+    .form .password-text input {
+        width: 350px;
+    }
+
+    .login-btn button {
+        width: 200px;
+    }
+    .register p{
+        margin-left: -140px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        width: 100%;
+    }
+    .ImageLogin {
+        display: flex;
+        position: absolute;
+        max-width: 100%;
+        padding: 0px;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+
+    .ImageLogin img{
+        background-image: '../../../assets/picture/true-agency.png';
+        width: 100%;
+        height: 800px;
+    }
+    
+    .ImageLogin:after {
+        display: flex;
+        position: absolute;
+        max-width: 100%;
+        padding: 0px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    .ImageLogin:after {
+        background-color: #5E50A1;
+        opacity: 0.8;
+        width: 100%;
+    }
+
+
+    .white-text {
+        display: none;
+    }
+    .logo img{
+        max-width: 300px;
+        height: 80px;
+    }
+
+    .logo img{
+        width: 300px;
+    }
+
+    .forget {
+        margin-left: -430px;
+    }
+    .forget p{
+        color: #ffffff;
+    }
+    
+    .form {
+        margin-left: 20px;
+        z-index: 1;
+    }
+
+    .form label {
+        color: #ffffff;
+    }
+
+    .description {
+        margin-left: 20px;
+        z-index: 1;
+    }
+
+    .description h1, .description p{
+        color: #ffffff;
+    }
+
+    .register p {
+        color: #ffffff;
+    }
+} */

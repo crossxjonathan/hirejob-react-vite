@@ -1,0 +1,82 @@
+.ContactPersonContainer {
+    width: 100%;
+    display: flex;
+}
+
+.ContactPersonContainer .mail img{
+    padding-top: 400px;
+    display: flex;
+    position: absolute;
+    margin-left: -70px;
+}
+
+.ContactPersonContainer .mail p{
+display: flex;
+padding: 0px 50px;
+position: absolute;
+margin-top: 210px;
+color: #9EA0A5;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}
+
+
+.ContactPersonContainer .instagram img{
+    padding-top: 450px;
+    display: flex;
+    position: absolute;
+    margin-left: -70px;
+}
+
+.ContactPersonContainer .instagram p{
+display: flex;
+padding: 0px 50px;
+position: absolute;
+margin-top: 260px;
+color: #9EA0A5;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}
+
+.ContactPersonContainer .gitlab img{
+    padding-top: 500px;
+    display: flex;
+    position: absolute;
+    margin-left: -70px;
+}
+
+.ContactPersonContainer .gitlab p{
+display: flex;
+padding: 0px 50px;
+position: absolute;
+margin-top: 310px;
+color: #9EA0A5;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}
+
+
+.ContactPersonContainer .github img{
+    padding-top: 550px;
+    display: flex;
+    position: absolute;
+    margin-left: -70px;
+}
+
+.ContactPersonContainer .github p{
+display: flex;
+padding: 0px 50px;
+position: absolute;
+margin-top: 360px;
+color: #9EA0A5;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+}

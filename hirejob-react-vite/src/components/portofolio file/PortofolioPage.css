@@ -1,0 +1,135 @@
+.portofolioPage-container {
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.portofolioPage-container .top-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+
+.portofolioPage-container .top-container .remainderApp img{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.portofolioPage-container .top-container .remainderApp p{
+    width: 100%;
+    padding: 10px 0px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1F2A36;
+}
+
+.portofolioPage-container .top-container .SocialMediaApp img{
+    padding-left: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.portofolioPage-container .top-container .SocialMediaApp p{
+    width: 100%;
+    padding: 10px 0px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1F2A36;
+}
+
+
+.portofolioPage-container .top-container .ProjectManagementWeb img{
+    padding-left: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.portofolioPage-container .top-container .ProjectManagementWeb p{
+    width: 100%;
+    padding: 10px 10px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1F2A36;
+}
+
+/* ========================================================================== */
+
+.portofolioPage-container .bottom-container {
+    width: 100%;
+    position: absolute;
+    flex: 1;
+    display: flex;
+    padding: 200px 0px;
+}
+
+.portofolioPage-container .bottom-container .remainderApp img{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.portofolioPage-container .bottom-container .remainderApp p{
+    width: 100%;
+    padding: 10px 0px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1F2A36;
+}
+
+.portofolioPage-container .bottom-container .SocialMediaApp img{
+    padding-left: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.portofolioPage-container .bottom-container .SocialMediaApp p{
+    width: 100%;
+    padding: 10px 0px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1F2A36;
+}
+
+
+.portofolioPage-container .bottom-container .ProjectManagementWeb img{
+    padding-left: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.portofolioPage-container .bottom-container .ProjectManagementWeb p{
+    width: 100%;
+    padding: 10px 10px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1F2A36;
+}

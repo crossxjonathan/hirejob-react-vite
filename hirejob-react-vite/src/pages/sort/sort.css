@@ -1,0 +1,498 @@
+.purplebar-sort {
+    display: flex;
+    margin-top: 0px;
+}
+
+.sort-container {
+    width: 100%;
+    padding: 30px 60px;
+    margin: auto;
+}
+
+.container-sort {
+    background-color: #F6F7F8;
+    width: 100%;
+    height: 1100px;
+}
+
+.container-sort .TableSort {
+    background-color: #FFFFFF;
+    display: grid;
+    width: 75%;
+    height: 800px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.container-sort .TableSort .profile1 p, .profile2 p, .profile3 p, .profile4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 56px;
+    color: #1F2A36;
+    padding-left: 200px;
+    text-wrap: nowrap;
+}
+
+.container-sort .TableSort .profile1 p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container-sort .TableSort .position1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -50px;
+}
+
+.container-sort .TableSort .location1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.container-sort .TableSort .location1 img {
+    padding: 18px 200px;
+}
+
+/* =======================================================================
+======================================================================= */
+.container-sort .TableSort .profile2 p {
+    margin-top: -80px;
+}
+
+.container-sort .TableSort .position2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.container-sort .TableSort .location2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container-sort .TableSort .location2 img {
+    padding: 30px 200px;
+}
+
+/* =======================================================================
+======================================================================= */
+
+.container-sort .TableSort .profile3 p {
+    margin-top: -80px;
+}
+
+.container-sort .TableSort .position3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.container-sort .TableSort .location3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container-sort .TableSort .location3 img {
+    padding: 30px 200px;
+}
+
+/* =======================================================================
+======================================================================= */
+
+.container-sort .TableSort .profile4 p {
+    margin-top: -80px;
+}
+
+.container-sort .TableSort .position4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.container-sort .TableSort .location4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container-sort .TableSort .location4 img {
+    padding: 30px 200px;
+}
+
+.container-sort .TableSort .skill1 .PHP1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-sort .TableSort .skill1 .PHP1 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-sort .TableSort .skill1 .JavaScript1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill1 .JavaScript1 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-sort .TableSort .skill1 .HTML1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill1 .HTML1 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-sort .TableSort .profile1 .photo1 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+
+/* ==========================================================
+========================================================== */
+
+
+.container-sort .TableSort .skill2 .PHP2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-sort .TableSort .skill2 .PHP2 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-sort .TableSort .skill2 .JavaScript2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill2 .JavaScript2 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-sort .TableSort .skill2 .HTML2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill2 .HTML2 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-sort .TableSort .profile2 .photo2 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+/* ==========================================================
+========================================================== */
+
+
+.container-sort .TableSort .skill3 .PHP3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-sort .TableSort .skill3 .PHP3 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-sort .TableSort .skill3 .JavaScript3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill3 .JavaScript3 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-sort .TableSort .skill3 .HTML3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill3 .HTML3 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-sort .TableSort .profile3 .photo3 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+/* ==========================================================
+========================================================== */
+
+
+.container-sort .TableSort .skill4 .PHP4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-sort .TableSort .skill4 .PHP4 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-sort .TableSort .skill4 .JavaScript4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill4 .JavaScript4 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-sort .TableSort .skill4 .HTML4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .skill4 .HTML4 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-sort .TableSort .profile4 .photo4 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+.container-sort .TableSort .profile1 .buttonProfile1 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -60px;
+}
+
+.container-sort .TableSort .profile1 .buttonProfile1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+.container-sort .TableSort .profile2 .buttonProfile2 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.container-sort .TableSort .profile2 .buttonProfile2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+
+.container-sort .TableSort .profile3 .buttonProfile3 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.container-sort .TableSort .profile3 .buttonProfile3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+
+.container-sort .TableSort .profile4 .buttonProfile4 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.container-sort .TableSort .profile4 .buttonProfile4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 1;
+}

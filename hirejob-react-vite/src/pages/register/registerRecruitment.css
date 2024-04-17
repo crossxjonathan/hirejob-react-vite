@@ -1,0 +1,122 @@
+.containerfluid .mainWrapper .rightwrapper {
+    float: left;
+    width: 50%;
+    flex: 1;
+}
+
+#recruitment {
+    padding: 40px 100px 40px 40px;
+}
+
+#recruitment .recruitment-container {
+    width: 100%;
+}
+
+
+#recruitment .recruitment-container .recruitment-title h1{
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43.58px;
+    color: #1F2A36;
+}
+
+#recruitment .recruitment-container .recruitment-title h1{
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43.58px;
+    color: #1F2A36;
+}
+
+#recruitment .recruitment-container .recruitment-description p {
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #46505C;
+    text-align: left;
+}
+
+#recruitment .name-recruitment {
+    padding: 20px 10px 10px 180px;
+}
+
+#recruitment .email-recruitment {
+    padding: 80px 10px 10px 180px;
+}
+
+#recruitment .company-recruitment {
+    padding: 80px 10px 10px 180px;
+}
+
+#recruitment .position-recruitment {
+    padding: 80px 10px 10px 180px;
+}
+
+#recruitment .phone-recruitment {
+    padding: 80px 10px 10px 180px;
+}
+
+#recruitment .password-recruitment {
+    padding: 80px 10px 10px 180px;
+}
+
+#recruitment .confirm-recruitment {
+    padding: 80px 10px 10px 180px;
+}
+
+#recruitment .recruitment-container .text-login {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-wrap: nowrap;
+}
+
+#recruitment .recruitment-container .text-login p {
+    color: #1F2A36;
+    padding: 400px 10px 10px 150px;
+}
+
+.text-login span {
+    color: #FBB017;
+    cursor: pointer;
+}
+
+.text-login span:hover {
+    color: #ffffff;
+    background-color: #FBB017;
+}
+
+
+@media screen and ( max-width:768px ) {
+    .containerfluid .mainWrapper .rightwrapper {
+        width: 50%;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -50px;
+    }
+
+    #recruitment .recruitment-container {
+        width: 100%;
+        position: relative;
+        margin-top: -70px;
+    }
+
+    #recruitment .recruitment-container .recruitment-title h1 {
+        display: none;
+    }
+
+    #recruitment .recruitment-container .recruitment-description p {
+        display: none;
+    }
+
+}

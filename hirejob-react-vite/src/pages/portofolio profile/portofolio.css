@@ -1,0 +1,191 @@
+.portofolio-container {
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    float: left;
+    flex: 1;
+    background-color: #F6F7F8;
+}
+
+.portofolio-container .main-portofolio {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #5E50A1;
+    padding: 50px 50px;
+}
+
+.portofolio-container .main-portofolio .left-container{
+    display: flex;
+    width: 25%;
+    height: 1100px;
+    background-color: #ffffff;
+    padding: 50px 95px;
+    margin-left: 90px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.portofolio-container .main-portofolio .right-container{
+    display: flex;
+    width: 65%;
+    height: 550px;
+    background-color: #ffffff;
+    padding: 50px 50px;
+    margin-left: 30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* =============================================================== */
+
+.portofolio-container .main-portofolio .left-container .ProfileName h1{
+    width: 170px;
+    display: flex;
+    padding-top: 140px;
+    position: absolute;
+    margin-left: -70px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #1F2A36;
+    line-height: 56px;
+}
+
+
+.portofolio-container .main-portofolio .left-container .ProfileName p{
+    width: 100%;
+    display: flex;
+    padding-top: 190px;
+    margin-left: -70px;
+    text-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.portofolio-container .main-portofolio .left-container .ProfileName .map p{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: -185px;
+    padding-left: 20px;
+    color: #9EA0A5;
+}
+
+.portofolio-container .main-portofolio .left-container .ProfileName .map img{
+display: flex;
+position: absolute;
+margin-left: -70px;
+padding-top: 10px;
+}
+
+.portofolio-container .main-portofolio .left-container .ProfileName .job p{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin-top: -150px;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #9EA0A5;
+}
+
+.portofolio-container .main-portofolio .left-container .ProfileName .ProfileAbout p{
+    width: 270px;
+    display: flex;
+    position: absolute;
+    margin-top: -100px;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9EA0A5;
+    text-wrap: wrap;
+    text-align: left;
+}
+
+
+.portofolio-container .main-portofolio .left-container .ProfileName .hire-button img{
+    width: 20%;
+    display: flex;
+    position: absolute;
+    height: 50px;
+    margin-left: -75px;
+    margin-top: 230px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.portofolio-container .main-portofolio .left-container .ProfileName .hire-button p{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-left: 0px;
+    padding: 245px 35px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.portofolio-container .main-portofolio .left-container .ProfileName .SkillTag {
+padding: 0px 0px;
+position: relative;
+margin-top: -350px;
+}
+
+/* ============================================================================ */
+
+.portofolio-container .main-portofolio .right-container .portofolio-page{
+    width: 100%;
+    display: flex;
+}
+
+.portofolio-container .main-portofolio .right-container .portofolio-page .portofolio-title h1{
+ width: 100%;   
+ display: flex;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ font-size: 22px;
+}
+
+.portofolio-container .main-portofolio .right-container .portofolio-page .portofolio-title hr{
+    border: none;
+    height: 4px;
+    background-color: #5E50A1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.portofolio-container .main-portofolio .right-container .portofolio-page .portofolio-file{
+   display: flex;
+   position: absolute;
+   padding: 50px;
+   margin-left: -50px;
+}
+
+.portofolio-container .main-portofolio .right-container .experience-page .experience-title h1{
+    width: 100%;   
+    display: flex;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    left: -380px;
+    font-weight: 600;
+    font-size: 22px;
+    text-wrap: nowrap;
+    color: #9EA0A5;
+    cursor: pointer;
+   }

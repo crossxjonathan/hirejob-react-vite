@@ -1,0 +1,349 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+
+.containerLandingLogin .titleOne {
+    display: flex;
+    position: relative;
+    width: 490px;
+    height: 210px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 70px;
+    color: #1F2A36;
+    padding: 30px 20px;
+    left: 75px;
+    top: 50px;
+    text-align: left;
+}
+
+.containerLandingLogin .descriptionOne {
+    display: flex;
+    position: relative;
+    width: 488px;
+    height: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #46505C;
+    padding: 100px 0px;
+    left: -400px;
+    top: 200px;
+    text-align: left;
+}
+
+.containerLandingLogin .descriptionOne button {
+    display: flex;
+    position: relative;
+    left: -890px;
+    top: 380px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.containerLandingLogin .imageOne {
+    position: relative;
+    top: -200px;
+    left: -100px;
+    justify-content: end;
+}
+
+.containerLandingLogin .talent-container {
+    width: 100%;
+}
+
+.containerLandingLogin .imageTwo {
+    display: flex;
+    position: relative;
+    margin-top: -200px;
+    left: -650px;
+}
+
+.containerLandingLogin .titleTwo {
+    display: flex;
+    position: relative;
+    width: 515px;
+    height: 112px;
+    top: -150px;
+    left: 750px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #1F2A36;
+}
+
+.containerLandingLogin .titleTwo h1 {
+    text-align: left;
+}
+
+
+.containerLandingLogin .descTwo {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 280px;
+    top: -50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #46505C;
+    text-wrap: nowrap;
+}
+
+.containerLandingLogin .descTwo p {
+    margin-top: 20px;
+}
+
+
+.containerLandingLogin .iconOne {
+    width: 20px;
+    position: relative;
+    left: 40px;
+    top: -50px;
+}
+
+.containerLandingLogin .iconOne img {
+    margin-top: 27px;
+}
+
+.containerLandingLogin .skill-container {
+    display: flex;
+    padding: 20px 20px;
+    position: absolute;
+}
+
+.containerLandingLogin .titleThree {
+    display: flex;
+    position: relative;
+    left: 230px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #1F2A36;
+    text-wrap: nowrap;
+}
+
+.containerLandingLogin .descThree p {
+    display: flex;
+    position: relative;
+    width: 488px;
+    height: 56px;
+    left: 40px;
+    top: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #46505C;
+    text-align: left;
+}
+
+.containerLandingLogin .skill {
+    position: relative;
+    left: -420px;
+    top: 150px;
+}
+
+.containerLandingLogin .skill2 {
+    position: relative;
+    left: -700px;
+    top: 150px;
+}
+
+.containerLandingLogin .skill p,
+.skill2 p {
+    width: 488px;
+    height: 56px;
+    position: relative;
+    text-align: left;
+}
+
+.containerLandingLogin .icon {
+    width: 20px;
+    position: relative;
+    left: -30px;
+    top: -255px;
+}
+
+.containerLandingLogin .icon img {
+    margin-top: 35px;
+}
+
+.containerLandingLogin .icon2 {
+    width: 20px;
+    position: relative;
+    left: -730px;
+    top: -105px;
+}
+
+.containerLandingLogin .icon2 img {
+    margin-top: 35px;
+}
+
+.containerLandingLogin .imageThree img {
+    position: relative;
+    left: -400px;
+    top: -450px;
+}
+
+
+.containerLandingLogin .about-container {
+    background-color: #FAFBFC;
+    width: 120%;
+    height: 600px;
+    margin-top: 470px;
+    overflow: hidden;
+}
+
+.containerLandingLogin .about-container .title h1 {
+    width: 100%;
+    height: 56px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 600px; */
+    font-size: 36px;
+    line-height: 56px;
+    color: #1F2A36;
+    padding: 40px 275px 0px 0px;
+    /* position: relative; */
+    /* left: 450px; */
+}
+
+.cardOne,
+.cardTwo,
+.cardThree {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.containerLandingLogin .rectangle {
+    background-color: #ffffff;
+    width: 120%;
+    height: 400px;
+    margin-top: 20px;
+    /* overflow: hidden; */
+}
+
+.containerLandingLogin .title-purple {
+    display: flex;
+    position: relative;
+    top: -280px;
+    left: 200px;
+}
+
+.containerLandingLogin .title-purple h1{
+    width: 293px;
+    height: 112px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.containerLandingLogin .buttonWhite {
+    display: flex;
+    position: relative;
+    left: 1000px;
+    top: -220px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.containerLandingLogin .starting-button {
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+@media (max-width: 992px) { 
+    body {
+        width: 100%;
+        display: flex;
+    }
+    
+    .containerLandingLogin {
+        width: 100%;
+    }
+    .containerLandingLogin .titleOne{
+        width: 100%;
+        position: absolute;
+        margin-left: -50px;
+        font-size: 30px;
+    }
+    .containerLandingLogin .descriptionOne {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    }
+    .containerLandingLogin .starting-button button {
+        position: relative;
+        left: -440px;
+        top: 250px;
+    }
+    .containerLandingLogin .imageOne {
+        display: none;
+    }
+    
+    .containerLandingLogin .imageTwo {
+        display: none;
+    }
+
+    .containerLandingLogin .talent-container {
+        position: relative;
+        left: -700px;
+        padding-top: 300px;
+    }
+
+    .containerLandingLogin .talent-container h1{
+        width: 400px;
+        font-size: 30px;
+    }
+    
+    .containerLandingLogin .skill-container {
+        position: relative;
+        left: -200px;
+        top: -50px;
+    }
+
+    .containerLandingLogin .skill-container .imageThree{
+        display: none;
+    }
+
+    .containerLandingLogin .skill-container h1{
+        font-size: 40px;
+    }
+    
+    .about-container {
+        position: relative;
+        left: -500px;
+        top: -100px;
+        background-color: transparent;
+    }
+    
+    .containerLandingLogin .title-purple {
+        display: none;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .rectangle button {
+        position: relative;
+        left: 100px;
+    }
+    
+    }

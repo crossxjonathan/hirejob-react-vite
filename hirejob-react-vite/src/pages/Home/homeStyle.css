@@ -1,0 +1,501 @@
+.purplebar-home {
+    display: flex;
+    margin-top: 0px;
+}
+
+.search-container {
+    width: 100%;
+    padding: 30px 60px;
+    margin: auto;
+}
+
+.container-home {
+    background-color: #F6F7F8;
+    width: 100%;
+    height: 1100px;
+}
+
+.container-home .TableHome {
+    background-color: #FFFFFF;
+    display: grid;
+    width: 75%;
+    height: 800px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.container-home .TableHome .profile1 p, .profile2 p, .profile3 p, .profile4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 56px;
+    color: #1F2A36;
+    padding-left: 200px;
+    text-wrap: nowrap;
+}
+
+.container-home .TableHome .profile1 p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container-home .TableHome .position1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -50px;
+}
+
+.container-home .TableHome .location1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.container-home .TableHome .location1 img {
+    padding: 18px 200px;
+}
+
+/* =======================================================================
+======================================================================= */
+.container-home .TableHome .profile2 p {
+    margin-top: -80px;
+}
+
+.container-home .TableHome .position2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.container-home .TableHome .location2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container-home .TableHome .location2 img {
+    padding: 30px 200px;
+}
+
+/* =======================================================================
+======================================================================= */
+
+.container-home .TableHome .profile3 p {
+    margin-top: -80px;
+}
+
+.container-home .TableHome .position3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.container-home .TableHome .location3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container-home .TableHome .location3 img {
+    padding: 30px 200px;
+}
+
+/* =======================================================================
+======================================================================= */
+
+.container-home .TableHome .profile4 p {
+    margin-top: -80px;
+}
+
+.container-home .TableHome .position4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.container-home .TableHome .location4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9EA0A5;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.container-home .TableHome .location4 img {
+    padding: 30px 200px;
+}
+
+.container-home .TableHome .skill1 .PHP1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-home .TableHome .skill1 .PHP1 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-home .TableHome .skill1 .JavaScript1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill1 .JavaScript1 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-home .TableHome .skill1 .HTML1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill1 .HTML1 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-home .TableHome .profile1 .photo1 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+
+/* ==========================================================
+========================================================== */
+
+
+.container-home .TableHome .skill2 .PHP2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-home .TableHome .skill2 .PHP2 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-home .TableHome .skill2 .JavaScript2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill2 .JavaScript2 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-home .TableHome .skill2 .HTML2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill2 .HTML2 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-home .TableHome .profile2 .photo2 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+/* ==========================================================
+========================================================== */
+
+
+.container-home .TableHome .skill3 .PHP3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-home .TableHome .skill3 .PHP3 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-home .TableHome .skill3 .JavaScript3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill3 .JavaScript3 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-home .TableHome .skill3 .HTML3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill3 .HTML3 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-home .TableHome .profile3 .photo3 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+/* ==========================================================
+========================================================== */
+
+
+.container-home .TableHome .skill4 .PHP4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+
+.container-home .TableHome .skill4 .PHP4 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 200px;
+}
+
+.container-home .TableHome .skill4 .JavaScript4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 95px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill4 .JavaScript4 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 280px;
+}
+
+.container-home .TableHome .skill4 .HTML4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 205px;
+    z-index: 1;
+}
+
+.container-home .TableHome .skill4 .HTML4 img{
+    position: absolute;
+    margin-top: -10px;
+    padding: 0px 390px;
+}
+
+.container-home .TableHome .profile4 .photo4 img{
+    position: absolute;
+    margin-top: -100px;
+    padding: 0px 40px;
+}
+
+.container-home .TableHome .profile1 .buttonProfile1 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -60px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.container-home .TableHome .profile1 .buttonProfile1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.container-home .TableHome .profile2 .buttonProfile2 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.container-home .TableHome .profile2 .buttonProfile2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+
+.container-home .TableHome .profile3 .buttonProfile3 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.container-home .TableHome .profile3 .buttonProfile3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 1;
+}
+
+
+.container-home .TableHome .profile4 .buttonProfile4 img {
+    padding-left: 800px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.container-home .TableHome .profile4 .buttonProfile4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-wrap: nowrap;
+    position: absolute;
+    padding-left: 830px;
+    margin-top: -80px;
+    z-index: 1;
+}
