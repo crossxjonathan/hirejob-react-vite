@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom/client'
 
 //LOGIN & REGISTER
 import Login from './pages/login/Login';
@@ -38,23 +39,25 @@ const App = () => {
           <Route path='portofolio' element={<Portofolio />} />
         </Route>
         <Route path='/worker' element={<LayoutPage />}>
-          <Route path='home' element={<Home />} />
-          <Route path='sort' element={<Sort />} />
-          <Route path='profile-pekerja' element={<ProfileWorker />} />
-          <Route path='edit-profile-pekerja' element={<EditEmployee />} />
-          <Route path='portofolio' element={<Portofolio />} />
-          <Route path='pengalaman-kerja' element={<Experience />} />
+          <Route exact path='home' element={<Home />} />
+          <Route exact path='sort' element={<Sort />} />
+          <Route exact path='profile-pekerja' element={<ProfileWorker />} />
+          <Route exact path='edit-profile-pekerja' element={<EditEmployee />} />
+          <Route exact path='portofolio' element={<Portofolio />} />
+          <Route exact path='pengalaman-kerja' element={<Experience />} />
         </Route>
         <Route path="auth" element={<PublicLayout />}>
-          <Route path='login' element={<Login />} />
-          <Route path='register' element={<Register />} />
-          <Route path='register-recruitment' element={<RegisterRecruitment />} />
+          <Route exact path='login' element={<Login />} />
+          <Route exact path='register' element={<Register />} />
+          <Route exact path='register-recruitment' element={<RegisterRecruitment />} />
         </Route>
-        <Route path='/' element={<LandingPage />} />
-        <Route path='landing-page-login' element={<LandingPagelogin />} />
+        <Route exact path='/' element={<LandingPage />} />
+        <Route exact path='landing-page-login' element={<LandingPagelogin />} />
       </Routes>
     </BrowserRouter>
   )
 }
 
 export default App
+
+ReactDOM.render(<App />, document.getElementById('root'));
