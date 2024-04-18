@@ -16,3 +16,10 @@
 .textInput input{
     height: 50px;
 }
+
+
+@media screen and ( max-width:768px ) {
+    .textInput label {
+        color: #ffffff;
+    }
+}

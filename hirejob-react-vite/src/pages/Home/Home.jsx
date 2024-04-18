@@ -19,13 +19,17 @@ const Home = () => {
   const OpenProfile = () => {
     window.location.href = '/worker/portofolio';
   }
+  const handleHomeProfile = () => {
+
+  }
+
   return (
     <div>
-    <PurpleBar className='purplebar-home -mt-2'/>
+    <PurpleBar className='purplebar-home -mt-3'/>
     <SearchBar className='search-container'/>
     <div className='container-home'>
       <div className='TableHome flex flex-col'>
-        <div className='profile1'>
+        {/* <div className='profile1'>
           <p>Louis Tomlinson</p>
           <div className='position1'>
             <p>Web developer</p>
@@ -56,8 +60,8 @@ const Home = () => {
             <img src={button} alt="buttonProfile1" />
           </div>
         </div>
-        <hr />
-        <div className='profile2'>
+        <hr /> */}
+        {/* <div className='profile2'>
           <p>Harry Styles</p>
           <div className='position2'>
             <p>Web developer</p>
@@ -88,8 +92,8 @@ const Home = () => {
             <img src={button} alt="buttonProfile2" />
           </div>
         </div>
-        <hr />
-        <div className='profile3'>
+        <hr /> */}
+        {/* <div className='profile3'>
           <p>Niall Horan</p>
           <div className='position3'>
             <p>Web developer</p>
@@ -120,8 +124,8 @@ const Home = () => {
             <img src={button} alt="buttonProfile3" />
           </div>
         </div>
-        <hr />
-        <div className='profile4'>
+        <hr /> */}
+        {/* <div className='profile4'>
           <p>Liam Payne</p>
           <div className='position4'>
             <p>Web developer</p>
@@ -151,7 +155,7 @@ const Home = () => {
             <p>Lihat Profile</p>
             <img src={button} alt="buttonProfile4" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     <Pagination/>

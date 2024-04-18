@@ -34,7 +34,7 @@ const SortBar = ({ classname }) => {
                                 placeholder="Search for any skill"
                                 className="w-full py-3 pl-12 pr-4 text-gray-500 border rounded-md outline-none bg-gray-50 focus:bg-white focus:border-indigo-600"
                             />
-                            <div class="sort">
+                            <div className="sort">
                                 <select id="categoryDropdown">
                                     <option value="" selected disabled><p>sort</p></option>
                                     <option value="sort1">Option 1</option>

@@ -90,4 +90,12 @@
     #login .description p {
         color: #f8f8f8;
     }
+
+    .containerfluid .mainWrapper .rightWrapper .forget p {
+        color: #FFFFFF;
+    }
+
+    #login .registerClick p {
+        color: #FFFFFF;
+    }
 }

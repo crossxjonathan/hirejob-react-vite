@@ -20,7 +20,7 @@ const LandingLoginContainer = () => {
   }
 
   return (
-    <body>
+    <div>
       <section id='contain'>
         <div className='containerLandingLogin'>
           <div className='flex'>
@@ -36,10 +36,10 @@ const LandingLoginContainer = () => {
             </div>
           </div>
           <div className='talent-container flex'>
-            <div class="titleTwo flex">
+            <div className="titleTwo flex">
               <h1>Kenapa harus mencari tallent di peworld</h1>
             </div>
-            <div class="descTwo">
+            <div className="descTwo">
               <p>Lorem ipsum dolor sit amet.</p>
               <p>Lorem ipsum dolor sit amet.</p>
               <p>Lorem ipsum dolor sit amet.</p>
@@ -51,24 +51,24 @@ const LandingLoginContainer = () => {
               <img src={Purple} />
               <img src={Purple} />
             </div>
-            <div class="imageTwo">
+            <div className="imageTwo">
               <img src={imagesTwo} />
             </div>
           </div>
           <div className='skill-container'>
-            <div class="titleThree">
+            <div className="titleThree">
               <h1>Skill Talent</h1>
             </div>
-            <div class="descThree">
+            <div className="descThree">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
             </div>
             <div className='sub-skill1'>
-              <div class="skill">
+              <div className="skill">
                 <p>Java</p>
                 <p>Kotlin</p>
                 <p>PHP</p>
                 <p>JavaScript</p>
-                <div class="icon">
+                <div className="icon">
                   <img src={Yellow} />
                   <img src={Yellow} />
                   <img src={Yellow} />
@@ -77,19 +77,19 @@ const LandingLoginContainer = () => {
               </div>
             </div>
             <div className='sub-skill2'>
-              <div class="skill2">
+              <div className="skill2">
                 <p>Golang</p>
                 <p>C++</p>
                 <p>Ruby</p>
                 <p>10+ Bahasa Lainnya</p>
               </div>
-              <div class="icon2">
+              <div className="icon2">
                 <img src={Yellow} />
                 <img src={Yellow} />
                 <img src={Yellow} />
                 <img src={Yellow} />
               </div>
-              <div class="imageThree">
+              <div className="imageThree">
                 <img src={imagesThree} />
               </div>
             </div>
@@ -123,7 +123,7 @@ const LandingLoginContainer = () => {
           </div>
         </div>
       </section>
-    </body>
+    </div>
   )
 }
 

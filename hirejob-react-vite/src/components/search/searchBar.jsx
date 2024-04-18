@@ -33,12 +33,12 @@ const SearchBar = ({ classname }) => {
                                 placeholder="Search for any skill"
                                 className="w-full py-3 pl-12 pr-4 text-gray-500 border rounded-md outline-none bg-gray-50 focus:bg-white focus:border-indigo-600"
                             />
-                            <div class="category">
+                            <div className="category">
                                 <select id="categoryDropdown">
-                                    <option value="" selected disabled><p>kategori</p></option>
-                                    <option value="option1"><p>HTML & CSS</p></option>
-                                    <option value="option2"><p>Golang</p></option>
-                                    <option value="option3"><p>JavaScript</p></option>
+                                    <option value="" disabled>kategori</option>
+                                    <option value="option1">HTML & CSS</option>
+                                    <option value="option2">Golang</option>
+                                    <option value="option3">JavaScript</option>
                                 </select>
                             </div>
                             <div className='Lined-container'>

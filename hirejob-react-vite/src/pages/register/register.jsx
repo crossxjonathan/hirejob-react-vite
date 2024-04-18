@@ -27,7 +27,7 @@ const register = () => {
       alert('Your password is not match, please check again!!')
       return;
     }
-
+    // console.log(import.meta.env.VITE_URL_PEWORD);
     axios.post(`${import.meta.env.VITE_URL_PEWORD}/workers/register`, {
       email: form.email,
       password: form.password,
@@ -38,7 +38,7 @@ const register = () => {
         console.log(res);
         alert('Registration successful!');
         localStorage.setItem('registerUser', JSON.stringify(form));
-        navigate(`/`);
+        navigate(`/auth/login`);
       })
       .catch((error) => {
         console.log(error.message);

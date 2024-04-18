@@ -23,7 +23,7 @@ const RegisterRecruitment = () => {
             return;
         }
 
-        axios.post('https://fwm17-be-peword.vercel.app/v1/recruiters/register', {
+        axios.post(`${import.meta.env.VITE_URL_PEWORD}/recruiters/register`, {
             email: form.email,
             password: form.password,
             name: form.name,

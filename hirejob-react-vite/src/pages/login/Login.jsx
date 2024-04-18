@@ -26,7 +26,7 @@ const Login = () => {
 
     axios({
       method: 'POST',
-      url: `https://fwm17-be-peword.vercel.app/v1/auth/login`,
+      url: `${import.meta.env.VITE_URL_PEWORD}/auth/login`,
       data: {
         email: form.email,
         password: form.password
