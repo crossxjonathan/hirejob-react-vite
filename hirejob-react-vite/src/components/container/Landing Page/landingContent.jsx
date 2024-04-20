@@ -99,7 +99,7 @@ const LandingPageContainer = () => {
               <h1>Their opinion about peworld</h1>
             </div>
             <Prev />
-            <div className='flex flex-column px-20 py-20 '>
+            <div className='table-carrousel flex flex-column px-20 py-20 '>
               <div className='cardOne '>
                 <Card image={ProfileOne} name="Harry Styles" position="Web Developer" about="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor." />
               </div>

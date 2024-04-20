@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from './logo/Group 980 1.png'
+import ButtonLandingPage from '../button/buttonLandingPage';
+import ButtonWhiteLanding from '../button/ButtonWhite';
+import ButtonLandingHome from '../button/buttonHome';
 import './headerLandingLogin.css'
 
 
@@ -14,17 +17,29 @@ const HeaderLandingLogin = () => {
 
     }
 
+    const logout = () => {
+        localStorage.clear();
+        window.location.href = '/';
+    }
+
     return (
-        <NavLink className='landingheaderlogin-container bg-white px-5'>
+        <NavLink className='landingheaderlogin-container bg-white px-5 py-10'>
             <ul className='logo-landing flex'>
-                <li><img src={logo} className='h-10 px-24' alt="logo" /></li>
+                <li><img src={logo} className='absolute -mt-5' alt="logo" /></li>
             </ul>
-            <ul className='homePageButton py-6'>
-                <li onClick={homePage}><p>HOME</p></li>
+            <ul className='homePageButton flex absolute z-10 ml-200 -mt-100'>
+                <li>
+                    <ButtonLandingHome text='Home' onClick={homePage}/>
+                </li>
             </ul>
-            <ul className='button-landing flex justify-end'>
-                <li className='relative -left-16 -top-2'>
-                <button type="button" onClick={profile} className="w-24 h-10 relative -top-9 -left-10 focus:outline-none text-white bg-purple-800 hover:bg-purple-900 focus:ring-4 focus:ring-purple-300 font-medium rounded-md text-sm px-5 py-2.5 mb-2 dark:bg-purple-700 dark:hover:bg-purple-800 dark:focus:ring-purple-900">Profile</button>
+            <ul className='flex ml-260 -mt-100 z-10'>
+                <li>
+                <ButtonWhiteLanding text='Log out' onClick={logout}/>
+                </li>
+            </ul>
+            <ul className='flex px-5 -mt-100 z-10'>
+                <li>
+                <ButtonLandingPage text='Profile' onClick={profile}/>
                 </li>
             </ul>
         </NavLink>

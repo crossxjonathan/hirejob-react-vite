@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/ReactToastify.css'
 import axios from 'axios';
 import './login.css'
 
@@ -19,11 +21,11 @@ const Login = () => {
       e.preventDefault();
     }
     console.log(form)
-    if (form.email === '' || form.password === '' || form.phone === '' || form.name === '' || form.confirm === '') {
-      alert('You must fill in all of forms!!!')
+    if (form.email === '' || form.password === '') {
+      toast.error('You must fill in both email and password fields!!!')
       return;
     }
-
+  
     axios({
       method: 'POST',
       url: `${import.meta.env.VITE_URL_PEWORD}/auth/login`,
@@ -36,16 +38,17 @@ const Login = () => {
         const { token, refreshToken } = res.data.data;
         localStorage.setItem('token', token);
         localStorage.setItem('refreshToken', refreshToken);
+        // toast.success('Welcome!!')
         alert('Welcome!!')
+        // console.log(res)
         navigate('/landing-page-login')
-
       })
       .catch((err) => {
         alert('Your email or your password is false, please check again!!')
         console.log(err.response.message);
       })
   }
-
+  
   const handleChange = (e) => {
     setForm({
       ...form,
@@ -64,6 +67,7 @@ const Login = () => {
   }
   return (
     <div id="login" className='rightWrapper'>
+      <ToastContainer/>
       <div className='pagecontainer'>
         <div className='title'>
           <h1>Halo, Pewpeople</h1>

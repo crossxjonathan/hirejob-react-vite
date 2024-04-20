@@ -263,6 +263,117 @@ button {
 }
 
 
+/* @media (max-width: 576px) { 
+    body {
+        width: 100%;
+        display: flex;
+    }
+    
+    .containerLandingPage {
+        width: 100%;
+    }
+    .containerLandingPage .titleOne{
+        width: 100%;
+        position: absolute;
+        margin-left: -80px;
+        font-size: 22px;
+        text-wrap: balance;
+    }
+    .containerLandingPage .descriptionOne {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    width: 250px;
+    }
+
+    .containerLandingPage .imageOne {
+       position: relative;
+       left: -1250px;
+       top: 100px;
+    }
+
+    .containerLandingPage .imageOne img{
+        width: 20%;
+    }
+
+    .containerLandingPage button {
+        position: relative;
+        left: -230px;
+        top: 260px;
+    }
+    
+    .containerLandingPage .imageTwo {
+        position: relative;
+        left: -700px;
+        top: 0px;
+    }
+
+    .containerLandingPage .imageTwo img{
+        display: none;
+        }
+
+    .containerLandingPage .talent-container{
+        position: relative;
+        left: 0px;
+        top:  60px;
+    }
+
+    .containerLandingPage .talent-container h1{
+        width: 50%;
+        font-size: 18px;
+        position: relative;
+        left: -730px;
+        top: -30px;
+    }
+
+    .containerLandingPage .descTwo {
+        position: relative;
+        left: -450px;
+        top: -100px;
+    }
+
+    .containerLandingPage .iconOne {
+        position: relative;
+        left: -680px;
+        top: -100px;
+    }
+    
+    .containerLandingPage .skill-container {
+        position: relative;
+        left: -200px;
+        top: 280px;
+    }
+
+    .containerLandingPage .skill-container .imageThree{
+        width: 50%;
+        position: relative;
+        left: -200px;
+        top: 100px;
+    }
+
+    .containerLandingPage .skill-container .imageThree img{
+        display: none;
+    }
+
+    .containerLandingPage .skill-container{
+        display: none;
+    }   
+    
+    .containerLandingPage .about-container {
+        display: none;
+    }
+
+    .title-purple h1 {
+        display: none;
+    }
+
+    .rectangle {
+        display: none;
+    }
+    
+    } */
+
+
 @media (max-width: 992px) { 
     body {
         width: 100%;
@@ -275,18 +386,18 @@ button {
     .containerLandingPage .titleOne{
         width: 100%;
         position: absolute;
-        margin-left: -50px;
+        margin-left: -80px;
         font-size: 30px;
     }
     .containerLandingPage .descriptionOne {
     position: relative;
-    left: 50px;
-    top: 50px;
+    left: 10px;
+    top: 100px;
     }
     .containerLandingPage button {
         position: relative;
-        left: -440px;
-        top: 250px;
+        left: -480px;
+        top: 280px;
     }
     .containerLandingPage .imageOne {
         display: none;
@@ -298,7 +409,7 @@ button {
 
     .containerLandingPage .talent-container {
         position: relative;
-        left: -700px;
+        left: -720px;
         padding-top: 300px;
     }
 
@@ -309,23 +420,20 @@ button {
     
     .containerLandingPage .skill-container {
         position: relative;
-        left: -200px;
+        left: -230px;
         top: -50px;
     }
 
     .containerLandingPage .skill-container .imageThree{
         display: none;
     }
-
+/* 
     .containerLandingPage .skill-container h1{
         font-size: 40px;
-    }
+    } */
     
     .about-container {
-        position: relative;
-        left: -500px;
-        top: -100px;
-        background-color: transparent;
+        display: none;
     }
     
     .title-purple h1 {

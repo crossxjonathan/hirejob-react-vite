@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ProtectionRoute from '../../config/router/index';
+import PrivateRoute from '../../components/private route/index';
+
 
 //LOGIN & REGISTER
 import Login from '../../pages/login/Login';
@@ -32,21 +33,62 @@ const MainRouter = () => {
     <BrowserRouter>
       <Routes>
       <Route path='/company' element={<LayoutCompany />}>
-          <Route path='home' element={<Home />} />
-          <Route path='sort' element={<Sort />} />
+          <Route path='home' element={
+          <PrivateRoute>
+          <Home />
+          </PrivateRoute>
+          } />
+          <Route path='sort' element={
+          <PrivateRoute>
+          <Sort />
+          </PrivateRoute>
+          } />
           <Route path='profile-perusahaan' element={
-          <ProfileCompany />} />
+          <PrivateRoute>
+          <ProfileCompany />
+          </PrivateRoute>
+          } />
           <Route path='edit-profile-perusahaan' element={
-          <EditCompany />} />
-          <Route path='portofolio' element={<Portofolio />} />
+          <PrivateRoute>
+          <EditCompany />
+          </PrivateRoute>
+          } />
+          <Route path='portofolio' element={
+          <PrivateRoute>
+          <Portofolio />
+          </PrivateRoute>
+          } />
         </Route>
         <Route path='/worker' element={<LayoutPage />}>
-          <Route path='home' element={<Home />} />
-          <Route path='sort' element={<Sort />} />
-          <Route path='profile-pekerja' element={<ProfileWorker />} />
-          <Route path='edit-profile-pekerja' element={<EditEmployee />} />
-          <Route path='portofolio' element={<Portofolio />} />
-          <Route path='pengalaman-kerja' element={<Experience />} />
+          <Route path='home' element={
+          <PrivateRoute>
+            <Home />
+          </PrivateRoute>} />
+          <Route path='sort' element={
+          <PrivateRoute>
+          <Sort />
+          </PrivateRoute>
+          } />
+          <Route path='profile-pekerja' element={
+          <PrivateRoute>
+          <ProfileWorker />
+          </PrivateRoute>
+          } />
+          <Route path='edit-profile-pekerja' element={
+          <PrivateRoute>
+          <EditEmployee />
+          </PrivateRoute>
+          } />
+          <Route path='portofolio' element={
+          <PrivateRoute>
+          <Portofolio />
+          </PrivateRoute>
+          } />
+          <Route path='pengalaman-kerja' element={
+          <PrivateRoute>
+          <Experience />
+          </PrivateRoute>
+          } />
         </Route>
         <Route path="auth" element={<PublicLayout />}>
           <Route path='login' element={<Login />} />
@@ -54,7 +96,11 @@ const MainRouter = () => {
           <Route path='register-recruitment' element={<RegisterRecruitment />} />
         </Route>
         <Route path='/' element={<LandingPage />} />
-        <Route path='landing-page-login' element={<LandingPagelogin />} />
+        <Route path='landing-page-login' element={
+        <PrivateRoute>
+        <LandingPagelogin />
+        </PrivateRoute>
+        } />
       </Routes>
     </BrowserRouter>
   )

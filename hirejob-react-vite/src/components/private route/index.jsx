@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 
-const ProtectionRoute = ({children}) => {
+const PrivateRoute = ({children}) => {
     const token = localStorage.getItem('token')
     if(!token) {
         return (<Navigate to='/auth/login'/>)
@@ -9,4 +9,4 @@ const ProtectionRoute = ({children}) => {
   return children;
 }
 
-export default ProtectionRoute
+export default PrivateRoute

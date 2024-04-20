@@ -9,7 +9,7 @@ const ButtonClick = ({ onClick, text }) => {
 
     return (
         <div className='buttonClick'>
-            <button type="buttonLogin"
+            <button type="button"
                 onClick={handleClick}
                 className="focus:outline-none text-white bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-64 py-3 me-2 mb-2 dark:focus:ring-yellow-900">
                 {text}
