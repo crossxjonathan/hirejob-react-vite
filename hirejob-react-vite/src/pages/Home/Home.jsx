@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios';
 import './homeStyle.css';
 
 import PurpleBar from '../../components/purple bar/purpleBar';
 import SearchBar from '../../components/search/searchBar';
 import Pagination from '../../components/pagination/pagination';
+import CardHome from '../../components/card/card.home';
 
 import map from '../../assets/icon/map-pin (4) 1.png';
 import PHP from '../../assets/icon/Rectangle 621.png';
@@ -16,16 +19,24 @@ import photo4 from '../../assets/image profile/Ellipse 329.png';
 import button from '../../assets/icon/Rectangle 624.png';
 
 const Home = () => {
-  const OpenProfile = () => {
-    window.location.href = '/worker/portofolio';
-  }
-  const handleHomeProfile = () => {
-
-  }
+  const [value, setValue] = useState([])
+  useEffect(()=>{
+    axios({
+      method: 'GET',
+      url: `${import.meta.env.VITE_URL_PEWORD}/workers`
+    })
+    .then((res)=>{
+      const result = res.data
+      setValue(result)
+    })
+    .catch((err)=>{
+      console.log(err);
+    })
+  },[])
 
   return (
     <div>
-    <PurpleBar className='purplebar-home -mt-3'/>
+    <PurpleBar className='purplebar-home mt-0'/>
     <SearchBar className='search-container'/>
     <div className='container-home'>
       <div className='TableHome flex flex-col'>
@@ -59,8 +70,8 @@ const Home = () => {
             <p>Lihat Profile</p>
             <img src={button} alt="buttonProfile1" />
           </div>
-        </div>
-        <hr /> */}
+        </div> */}
+        <hr />
         {/* <div className='profile2'>
           <p>Harry Styles</p>
           <div className='position2'>
@@ -91,8 +102,8 @@ const Home = () => {
             <p>Lihat Profile</p>
             <img src={button} alt="buttonProfile2" />
           </div>
-        </div>
-        <hr /> */}
+        </div> */}
+        <hr />
         {/* <div className='profile3'>
           <p>Niall Horan</p>
           <div className='position3'>
@@ -123,8 +134,8 @@ const Home = () => {
             <p>Lihat Profile</p>
             <img src={button} alt="buttonProfile3" />
           </div>
-        </div>
-        <hr /> */}
+        </div> */}
+        <hr />
         {/* <div className='profile4'>
           <p>Liam Payne</p>
           <div className='position4'>
